@@ -1,0 +1,98 @@
+body{
+    vertical-align: middle;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    color: black;
+    font-size: 2rem;
+    font-family: `Times 'Times New Roman', Times, serif;
+    align-items: center;
+    justify-content: center;
+}
+
+.task_box {
+    margin: 100px auto;
+    display: inline-block
+    padding: 0;
+    border: 2px solid black;
+    width: 70%;
+    height: 75%;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    background: rgba(152, 251, 152, 0.4);
+    padding-left: 5rem
+    vertical-align: middle;
+    justify-content: center;
+}
+
+.task_box_long {
+    margin: 100px auto;
+    display: inline-block
+    padding: 0;
+    border: 2px solid black;
+    width: 95%;
+    height: 75%;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    background: rgba(152, 251, 152, 0.4);
+    padding-left: 5rem
+    vertical-align: middle;
+    justify-content: center;
+}
+
+ul{
+    position: relative;
+    left: 50px;
+    color: black;
+    padding-left: 3rem;
+    font-size: 1.5rem;
+}
+
+.impText {
+    color: rgb(35, 4, 112);
+    font-size: 1.2rem;
+    padding-left: 3rem;
+}
+
+.ordText {
+    color: black;
+    font-size: 1rem;
+    padding-left: 3rem;
+}
+
+form {
+    padding-left: 3rem;
+}
+
+button {
+    font-size: 14px;
+    font-family: `Times 'Times New Roman', Times, serif;
+    border-radius: 5px;
+    color: #fff;
+    background: #39d560;
+}
+
+button:hover {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    background: #5bf180;
+}
+
+button:active {
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2);
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    background: #02a127;
+}
+
+footer {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.copyright {
+    color: rgb(3, 41, 3);
+    font-family: 'Times New Roman', Times, serif;
+}
